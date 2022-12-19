@@ -311,6 +311,18 @@ img{
     background-clip: padding-box;
     color: rgb(249, 243, 243);
 }
+
+/* ===== GITHUB =====*/
+#github{ 
+    margin: auto;
+    display: block;
+}
+#github p img{
+    margin: auto;
+}
+.calendar{
+    text-align: center;
+}
 /* ===== PORTFOLIO =====*/
 .portfolio{
     background-color: var(--white-color);
@@ -389,6 +401,8 @@ transition: .5s;
     font-size: var(--normal-font-size);
     cursor: pointer;
 }
+
+
 
 /* ===== FOOTER=====*/
 .footer{
