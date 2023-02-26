@@ -11,7 +11,7 @@
 :root{
     --first-color: #ffac53;
     --white-color: #FAFAFF;
-    --dark-color: #2A3B47;
+    --dark-color: #06253a;
     --text-color: #697477;
 }
 
@@ -547,4 +547,13 @@ transition: .5s;
         width: 500px;
         right: 24%;
     }
+}
+
+
+.descr p{
+  color:#6b7679;
+}
+.tech p{
+    color:#6b7679;
+    margin-bottom: 20px;
 }
