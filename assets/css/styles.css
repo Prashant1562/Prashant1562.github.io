@@ -453,7 +453,7 @@ transition: .5s;
 
 }
 
-/* @media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
     .home__img {
       width: 200px;
     }
@@ -464,7 +464,7 @@ transition: .5s;
       line-height: .8;
   }
   
-  } */
+  }
 @media screen and (min-width: 768px){
     body{
         margin: 0;
@@ -560,6 +560,12 @@ transition: .5s;
     }
     .home__img {
         width: 500px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .home__img {
+        width: 400px;
     }
 }
 
