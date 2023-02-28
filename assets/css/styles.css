@@ -444,9 +444,27 @@ transition: .5s;
   .home__img {
     width: 230px;
   }
+  .home__title{
+    align-self: flex-end;
+    font-size: 3.5rem;
+    color: var(--white-color);
+    line-height: .8;
+}
 
 }
 
+/* @media screen and (max-width: 550px) {
+    .home__img {
+      width: 200px;
+    }
+    .home__title{
+      align-self: flex-end;
+      font-size: 3.5rem;
+      color: var(--white-color);
+      line-height: .8;
+  }
+  
+  } */
 @media screen and (min-width: 768px){
     body{
         margin: 0;
